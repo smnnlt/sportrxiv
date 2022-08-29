@@ -4,13 +4,13 @@ This is a Quarto template that assists you in creating a manuscript for the Spor
 
 ## Creating a New Article
 
-You can use this as a template to create an article for an AFT journal. To do this, use the following command:
+You can use this as a template to create an article for SportRxiv. To do this, use the following command:
 
 ```bash
 quarto use template smnnlt/sportrxiv
 ```
 
-This will install the extension and create an example qmd file and bibiography that you can use as a starting place for your article.
+This will install the extension and create an example qmd file and bibliography that you can use as a starting place for your article.
 
 ## Installation For Existing Document
 
@@ -22,7 +22,7 @@ quarto install extension smnnlt/sportrxiv
 
 ## Usage
 
-To use the format, you can use the format names `aft-pdf` and `aft-html`. For example:
+To use the format, you can use the format names `sportrxiv-pdf`. For example:
 
 ```bash
 quarto render article.qmd --to sportrxiv-pdf
