@@ -37,8 +37,4 @@ format:
     keep-tex: true    
 ```
 
-You can view a preview of the rendered template at 
-
-## Format Options
-
-This format does not have specific format option. Include documentation of such option otherwise. See <https://github.com/quarto-journals/elsevier#format-options> for an example.
+You can view a preview of the rendered template at <https://smnnlt.github.io/sportrxiv/>
