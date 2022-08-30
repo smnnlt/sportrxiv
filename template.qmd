@@ -1,6 +1,6 @@
 ---
 articletitle: |
-  Demo SportArxiv format to use as template and this is now a very long title
+  Demo format to use as template for an article submitted to the SportRxiv preprint server
 # shorttitle: "Doe et al. (2022)" # usually auto-generated
 format: sportrxiv-pdf
 author:
@@ -27,6 +27,8 @@ abstract: |
 license-type: ccby # change if neccessary
 # year: 2025 # defaults to current year
 keywords: [template, demo, exercise science] # optional
+# optional link to Supplementary Material:
+suppl-link: https://osf.io/ 
 reference-section-title: References
 bibliography: bibliography.bib  
 ---

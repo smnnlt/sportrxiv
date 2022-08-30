@@ -10,11 +10,11 @@ $for(by-author)$\stepcounter{nauthor}$endfor$
 \ifnum\thenauthor>2
 \renewcommand{\shortauthor}{$author/first$ et al. }
 \else 
-\renewcommand{\shortauthor}{${ for(by-author) }${ by-author.name }${ sep } \& ${ endfor }}
+\renewcommand{\shortauthor}{${ for(by-author) }${ by-author.name.family }${ sep } \& ${ endfor } }
 \fi
 
 \pagestyle{fancy}
-\fancyhead[L]{$if(shorttitle)$$shorttitle$$else$\shortauthor $if(year)$($year$)$else$(\the\year)$endif$$endif$}
+\fancyhead[L]{$if(shorttitle)$$shorttitle$$else$\shortauthor$ if(year)$($year$)$else$(\the\year)$endif$$endif$}
 \fancyhead[R]{}
 \fancypagestyle{firstpage}{
   \fancyhf{}% clear default for head and foot
@@ -44,8 +44,12 @@ $endif$
 $endfor$
 \\
 \bigskip
-Cite as: \shortauthor $if(year)$($year$)$else$(\the\year)$endif$. $articletitle$. \emph{SportRxiv.}
-\\
+\begin{spacing}{1}
+Cite as: \shortauthor$if(year)$($year$)$else$(\the\year)$endif$. $articletitle$. \emph{SportRxiv.} \\
+\end{spacing}
+$if(suppl-link)$
+  \vspace{1mm} Supplementary Materials: \href{$suppl-link$}{$suppl-link$} \\
+$endif$
 \vspace*{1cm}
 \end{flushleft}
 
@@ -69,5 +73,5 @@ Cite as: \shortauthor $if(year)$($year$)$else$(\the\year)$endif$. $articletitle$
   $if(keywords)$
   \\ \\
   Keywords: \emph{${for(keywords)}${keywords}${sep}; ${endfor}}
-  $endif$
+  $endif$ 
 \end{abstractbox}
