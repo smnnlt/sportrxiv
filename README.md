@@ -22,7 +22,7 @@ quarto install extension smnnlt/sportrxiv
 
 ## Usage
 
-To use the format, you can use the format names `sportrxiv-pdf`. For example:
+To use the format, you can use the format name `sportrxiv-pdf`. For example:
 
 ```bash
 quarto render article.qmd --to sportrxiv-pdf
