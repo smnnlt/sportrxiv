@@ -21,7 +21,7 @@ contributes:
       urlcolor: blue
       fig-width: 6.5
       fig-height: 4.5
-      mainfont: Open Sans
+      mainfont: Verdana
       # Content to add in header that your format is using
       include-in-header: 
         - include-in-header.tex
