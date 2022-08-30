@@ -19,7 +19,7 @@ $for(by-author)$\stepcounter{nauthor}$endfor$
 \fancypagestyle{firstpage}{
   \fancyhf{}% clear default for head and foot
   \lhead{\href{https://sportrxiv.org}{\includegraphics[width = 40mm]{logo.png}}}
-  \chead{PREPRINT - NOT PEER REVIEWED}
+  \chead{$printnote$}
   \rhead{\$license-type$\vspace{0.2mm}}
   \lfoot{\color{gray}All authors have read and approved  this version  of the manuscript. \linebreak The manuscript was last updated on \today}
 }
@@ -58,7 +58,7 @@ $endif$
   {}
 
 \surroundwithmdframed[
-  backgroundcolor=gray!10,
+  backgroundcolor=SRXIVgreen,
   innertopmargin=10pt,
   innerbottommargin=10pt,
   linewidth=2pt,
