@@ -37,7 +37,7 @@ pdf-engine: xelatex
 
 # Introduction
 
-\textcolor{SRXIVgreen}{This is a template for submissions} to the [SportRxiv](https://sportrxiv.org/index.php/server) pre-print server. It uses [Quarto](https://quarto.org/) to generate a PDF file in the desired style.
+This is a template for submissions to the [SportRxiv](https://sportrxiv.org/index.php/server) pre-print server. It uses [Quarto](https://quarto.org/) to generate a PDF file in the desired style.
 
 To get this template set up on your device, follow the instructions on [GitHub](https://github.com/smnnlt/sportrxiv/).
 
